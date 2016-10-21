@@ -1,0 +1,18 @@
+.input-wrapper {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+
+.input-wrapper input {
+    padding: 1em .8em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-wrapper input,.input-wrapper input:focus {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: #fff;
+}
